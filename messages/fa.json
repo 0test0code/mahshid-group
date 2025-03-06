@@ -1,0 +1,85 @@
+
+
+{
+"LocalSwitcher":{"ToggleLanguage":"تغییر زبان",
+    "English":"English",
+    "Persian":"پارسی"
+    },
+
+
+    "Home": {
+      "title": "درود بر جهان!"
+    }
+ ,
+    "About": {
+      "title": "درباره ما"
+    },
+    "App": {
+      "title": "صقحه اصلی"
+    },
+
+  "Layout":{
+    "title":"گروه مهشید"
+  },
+    "AppNavigation": {
+      "home": "Start",
+      "profile": "پروفایل"
+    },
+    "Index": {
+      "title": "Start"
+    },
+    "Login": {
+      "label": "ورود →"
+    },
+    "Logout": {
+      "label": "خروج →"
+    },
+    "PublicNavigation": {
+      "about": "Über uns",
+      "home": "Start"
+    },
+    "Navbar":{
+             "Mahshid":"گروه مهشید",
+             "cooperation":"همکاری",
+             "game":"سرگرمی",
+             "events":"رویدادها",
+             "Signin":"ورود/ثبت نام"
+    },
+    "HeroContent": {
+      "Providing": "با ",
+      "best":"به روزترین",
+      "project":"ابزارها دیده شوید",
+      "Font":"Mountlogo",
+      "Learn":"بیشتر بدانید"
+    },
+    "skillText":{"generation":"آسودگی بیشتر در کسب و کار با ابزارهای آنلاین"}
+    ,
+    "Encryption":{
+      "Performance":"کارایی،بازده",
+      "Security":"امنیت",
+      "Encryption":"رمزنگاری",
+      "description":"با کارایی و امنیت درست کسب و کارتان را بهبود دهید"
+    },
+    "Footer":{"language":"fa",
+      "Community":"پروژه های گروه",
+      "Youtube":"یوتیوب",
+      "Github":"گیتاب",
+      "Discord":"Discord",
+      "social":"گردهمایی های دوستانه",
+      "Instagram":"اینستاگرام",
+      "Twitter":"توییتر",
+      "Linkedin":"لینکدین",
+      "About":"درباره گروه",
+      "Sponsor":"سرمایه گذاری",
+      "Learning":"بیشتر بدانید"
+    },
+    "Projects":{
+      "ourProjects":"تازه ترین کارها",
+      "ModernNextPortfolio":"مشاور بازار",
+      "Des4Modern":" با پایگاه داده امن، سرشماری و پشتیابنی از چند زبان",
+      "InteractiveWebsiteCards":"سیستم تصمیم گیری هوشمند",
+    "Des4Interactive":"تصمیم گیری با هوش مصنوعی",
+    "SpaceThemed":"پرتال گروه",
+    "Des4SpaceThemed":"دفترکار،سرشماری،آمار و پذیرش"
+    }
+  }

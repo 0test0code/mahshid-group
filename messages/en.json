@@ -1,0 +1,85 @@
+
+  {
+    "LocalSwitcher":{"ToggleLanguage":"Change language",
+    "English":"English",
+    "Persian":"Persian"
+    },
+
+    "Home": {
+      "title": "Hello world!"
+    },
+
+    "About": {
+    "title": "About"
+  },
+  "App": {
+    "title": "Main"
+  },
+  "Layout":{
+    "title":"Mahshid co."
+  },
+
+  "AppNavigation": {
+    "home": "Start",
+    "profile": "Profile"
+  },
+  "Navbar":{"Mahshid":"Mahshid Co.",
+    "cooperation":"Cooperation",
+    "game":"Games>",
+    "events":"Events",
+    "Signin":"Sign in"
+  }
+  ,
+  "Index": {
+    "title": "Start"
+  },
+  "Login": {
+    "label": "Login →"
+  },
+  "Logout": {
+    "label": "Logout →"
+  },
+  "PublicNavigation": {
+    "about": "Navigagion",
+    "home": "Start"
+  },
+  "HeroContent": {
+    "Providing": "Providing",
+    "best":"the best",
+    "project":"project exprience",
+    "Font":"text-white",
+    "Learn":"Learn More!"
+  },
+  "skillText":{"generation":"Think better with new generation of online tools"}
+  ,
+  "Encryption":{
+    "Performance":"Performance",
+    "Security":"Security",
+    "Encryption":"Encryption",
+     "description":"Secure your data with end-to-end encryption"
+  },
+  "Footer":{"language":"en",
+    "Community":"Community",
+    "Youtube":"Youtube",
+    "Github":"Github",
+    "Discord":"Discord",
+    "social":"Social Media",
+    "Instagram":"Instagram",
+    "Twitter":"Twitter",
+    "Linkedin":"Linkedin",
+    "About":"About",
+    "Sponsor":"Become Sponsor",
+    "Learning":"Learning about us"
+  },
+  "Projects":{
+    "ourProjects":"Our Projects",
+    "ModernNextPortfolio":"Modern Next.js Assistant-Consultant",
+    "Des4Modern":"With safe database and efficient census, survey and statistical analysis",
+    "InteractiveWebsiteCards":"Interactive Website Cards",
+    "Des4Interactive":"Decision-making and analysis with the help of artificial intelligence",
+    "SpaceThemed":"Space theme portal",
+    "Des4SpaceThemed":"ُTo manage office, census, statistics and admissions"
+
+  }
+
+}
