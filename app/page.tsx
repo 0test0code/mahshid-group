@@ -24,7 +24,7 @@ const Register = () => {   //Club-LqrpKi8e8MJLzrg
                             setIsLoading(true);
                             
                             if (username !==null && password !==null){
-                              const response = await axios.post('http://localhost:3000/api/register', {
+                              const response = await axios.post('https://mahshid-co.ir/api/register', {
                                 username,
                                 email,
                                 password

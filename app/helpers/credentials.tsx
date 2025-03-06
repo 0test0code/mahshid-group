@@ -20,7 +20,7 @@ export default function Credentials() {  const t = useTranslations('Navbar');
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/fetch-user")
+      .get("https://mahshid-co.ir/api/fetch-user")
       .then((response) => setUser(response.data.user))
       .catch((error) => console.error("Error fetching user:", error))
       .finally(() => setIsFetchingUser(false)); // Done fetching
@@ -38,7 +38,7 @@ export default function Credentials() {  const t = useTranslations('Navbar');
 
   const handleLogout = async () => {
     try {
-      const response = await axios.post("http://localhost:3000/api/log-out");
+      const response = await axios.post("https://mahshid-co.ir/api/log-out");
       toast.success(response.data.message);
       
     } catch (error) {

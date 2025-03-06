@@ -19,7 +19,7 @@ const SignUpPage = () => {
     try {
       setIsLoading(true);
       const response = await axios.post(
-        "http://localhost:3000/api/sign-up",
+        "https://mahshid-co.ir/api/sign-up",
         {
           username,
           email,
