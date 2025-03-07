@@ -8,6 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "pages:build": "npx @cloudflare/next-on-pages",
+    "preview": "npm run pages:build && wrangler pages dev",
+    "deploy": "npm run pages:build && wrangler pages deploy",
     "db:migrate": "npx prisma migrate dev"
   },
   "dependencies": {
@@ -29,6 +32,7 @@
     "toastr": "^2.1.4"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.13.9",
     "@react-three/drei": "^9.121.4",
     "@react-three/fiber": "^8.17.10",
     "@types/bcryptjs": "^2.4.6",

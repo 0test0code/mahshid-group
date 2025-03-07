@@ -1,4 +1,5 @@
 
+import { setupDevPlatform } from '@cloudflare/next-on-pages/next-dev';
 const createNextIntlPlugin = require('next-intl/plugin');
  
 const withNextIntl = createNextIntlPlugin();
@@ -10,7 +11,9 @@ const nextConfig = {
       },
       images: { unoptimized: true },
 };
- 
+if (process.env.NODE_ENV === 'development') {
+  await setupDevPlatform();
+}
 module.exports = withNextIntl(nextConfig);
 
 
